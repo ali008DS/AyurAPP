@@ -1,0 +1,18 @@
+.sample-drag-bar {
+  width: 4px;
+  background-color: #dad8d8;
+  cursor: grabbing;
+  transition: background-color 0.3s ease-in-out;
+  border-radius: 6px;
+}
+
+.sample-drag-bar.sample-drag-bar--dragging,
+.sample-drag-bar:hover {
+  background-color: #63b3ed;
+}
+
+.sample-drag-bar.sample-drag-bar--horizontal {
+  height: 5px;
+  width: 100%;
+  cursor: row-resize;
+}
